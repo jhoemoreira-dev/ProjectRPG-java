@@ -1,5 +1,7 @@
 //Arquivo dedicado a criação de atributos essenciais dos personagens.
 
+import model.ClasseBase;
+
 public class StatusRPG {
     int ptArmadura;
     int vida;

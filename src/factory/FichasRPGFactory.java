@@ -10,6 +10,8 @@ Aqui também será o arquivo de origem dos métodos que serão usados no arquivo
 */
 
 
+import factory.*;
+
 public class FichasRPGFactory {
 
     public static FichaRPG criarBatedorFurioso(){
