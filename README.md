@@ -135,6 +135,7 @@ As factories foram utilizadas para:
 
 # 📸 Exemplo de saída
 
+```text
 ========== FICHA DO PERSONAGEM ==========
 
 Classe: Batedor Furioso
@@ -147,9 +148,7 @@ Destreza: 10
 
 XP Atual: 700
 XP para próximo nível: 1500
-
-
------------------------------------------------------------------------------------------
+```
 
 💡 Sobre o projeto
 
@@ -162,6 +161,6 @@ arquitetura de sistemas
 organização de código
 abstração
 modelagem de regras de negócio
-
 👨‍💻 Autor
+
 Joelson Moreira
