@@ -161,6 +161,7 @@ arquitetura de sistemas
 organização de código
 abstração
 modelagem de regras de negócio
-👨‍💻 Autor
 
+
+👨‍💻 Autor
 Joelson Moreira
