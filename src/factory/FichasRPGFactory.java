@@ -1,16 +1,20 @@
+package factory;
+import model.FichaRPG;
+import model.ClasseBase;
+import model.StatusRPG;
+import model.Habilidades;
+
 /*
-Arquivo FichasRPGFactory:
+Arquivo
 
 Onde será criado todas as classes e suas respectivas habilidades, nomes das classes e status dos personagens.
-Aqui também será o arquivo de origem dos métodos que serão usados no arquivo Main.java para a apresentação das fichas aos usuários
+Aqui também será o arquivo de origem dos métodos que serão usados no arquivo system.Main.java para a apresentação das fichas aos usuários
 
-'FichaRPG jogador = new FichaRPG (String nome: "", (ClasseBase.BATEDOR_FURIOSO), StatusRPG(param)'
+'model.FichaRPG jogador = new model.FichaRPG (String nome: "", (model.ClasseBase.BATEDOR_FURIOSO), model.StatusRPG(param)'
                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-                       Aqui serão chamados os dois arquivos como argumentos, Stringo nome e StatusRPG.
+                       Aqui serão chamados os dois arquivos como argumentos, Stringo nome e model.StatusRPG.
 */
 
-
-import factory.*;
 
 public class FichasRPGFactory {
 

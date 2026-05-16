@@ -1,3 +1,7 @@
+package factory;
+
+import model.Habilidades;
+
 public class SkillFactory_VastoLorde {
 
 

@@ -1,3 +1,6 @@
+package factory;
+import model.Habilidades;
+
 //Arquivo dedicado a criação de habilidades da classe: Defensor Colossal.
 
 public class SkillFactory_DefensorColossal {

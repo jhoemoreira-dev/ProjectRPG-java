@@ -1,15 +1,14 @@
+package model;
+import model.Habilidades;
 /*
 Arquivo ClasseRPG:
 
 Aqui é possível manipular os arquivos adicionados e fazer a chamada das classes tratando elas como um tipo de variável.
-(StatusRPG e ArrayList<model.Habilidades>)
+(model.StatusRPG e ArrayList<model.Habilidades>)
 Através do atributo aqui criado 'private String nome;' é possível determinar o nome das classes no arquivo 'factory.FichasRPGFactory.java'.
 
 */
 
-
-import model.ClasseBase;
-import model.Habilidades;
 
 import java.util.ArrayList;
 

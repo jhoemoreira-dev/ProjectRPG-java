@@ -1,6 +1,4 @@
-//Arquivo dedicado a criação de atributos essenciais dos personagens.
-
-import model.ClasseBase;
+package model;//Arquivo dedicado a criação de atributos essenciais dos personagens.
 
 public class StatusRPG {
     int ptArmadura;

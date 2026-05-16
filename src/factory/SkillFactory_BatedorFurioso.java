@@ -1,4 +1,9 @@
+package factory;
+import model.Habilidades;
+
 //Arquivo dedicado a criação de habilidades da classe: Batedor Furioso.
+
+
 
 
 public class SkillFactory_BatedorFurioso {
@@ -12,7 +17,7 @@ public class SkillFactory_BatedorFurioso {
 
         );
     }
-        public static  Habilidades criarSocosFuriosos(){
+        public static Habilidades criarSocosFuriosos(){
         return new Habilidades(1,
                 "Socos Furiosos",
                 "Chance de atordoamento (30%) por 1T || Recebe 1 (ADF)",

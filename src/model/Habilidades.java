@@ -1,3 +1,6 @@
+package model;
+
+
 //Classe criada para ordernar as habilidades, a começar pelo seu nível, nome, efeito, dano e custo.
 
 public class Habilidades {
@@ -20,7 +23,7 @@ public class Habilidades {
 
 
 
-//Override criado para ser representado como paramêtro na ArrayList do arquivo CLasseRPG.java (ArrayList<Habilidades> habilidades;)
+//Override criado para ser representado como paramêtro na ArrayList do arquivo CLasseRPG.java (ArrayList<model.Habilidades> habilidades;)
     public String toString(){
         return
                 "\nNível da Habilidade: " +nivelHabilidade+

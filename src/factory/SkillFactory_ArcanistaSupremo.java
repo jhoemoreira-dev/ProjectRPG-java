@@ -1,4 +1,9 @@
+package factory;
+import model.Habilidades;
+
 //Arquivo dedicado a criação de habilidades da classe: Arcanista Supremo.
+
+
 
 public class SkillFactory_ArcanistaSupremo {
     public static Habilidades criarEsferaArcana() {

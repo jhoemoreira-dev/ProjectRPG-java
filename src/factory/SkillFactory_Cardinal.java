@@ -1,3 +1,6 @@
+package factory;
+import model.Habilidades;
+
 //Arquivo dedicado a criação de habilidades da classe: Cardinal.
 
 public class SkillFactory_Cardinal {

@@ -1,4 +1,4 @@
-// CLASSES E SEUS ATRIBUTOS BASE:
+package model;// CLASSES E SEUS ATRIBUTOS BASE:
 
 public enum ClasseBase {
     BATEDOR_FURIOSO(
