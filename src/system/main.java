@@ -10,11 +10,11 @@ public class main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-FichaRPG jogador1 = FichasRPGFactory.criarBatedorFurioso();
+FichaRPG jogador7 = FichasRPGFactory.criarGuerreiroDasSombras();
 
-        jogador1.ganharXP(1600);
+        jogador7.ganharXP(100);
 
-        System.out.println(jogador1);
+        System.out.println(jogador7);
 
 
         sc.close();

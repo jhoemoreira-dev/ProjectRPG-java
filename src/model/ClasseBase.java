@@ -1,4 +1,6 @@
-package model;// CLASSES E SEUS ATRIBUTOS BASE:
+package model;
+
+// CLASSES E SEUS ATRIBUTOS BASE:
 
 public enum ClasseBase {
     BATEDOR_FURIOSO(
@@ -186,7 +188,8 @@ public enum ClasseBase {
             1,
             1
     ),
-    SENTINELA_FANTASMA(60,
+    SENTINELA_FANTASMA(
+            60,
             400,
             120,
             0,

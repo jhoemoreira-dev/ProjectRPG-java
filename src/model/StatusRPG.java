@@ -1,4 +1,6 @@
-package model;//Arquivo dedicado a criação de atributos essenciais dos personagens.
+package model;
+
+//Arquivo dedicado a criação de atributos essenciais dos personagens.
 
 public class StatusRPG {
     int ptArmadura;

@@ -18,7 +18,7 @@ Aqui também será o arquivo de origem dos métodos que serão usados no arquivo
 
 public class FichasRPGFactory {
 
-    public static FichaRPG criarBatedorFurioso(){
+    public static FichaRPG criarBatedorFurioso() {
 
 
         FichaRPG jogador1 = new FichaRPG(
@@ -27,25 +27,22 @@ public class FichasRPGFactory {
                 (ClasseBase.BATEDOR_FURIOSO),
                 new StatusRPG(ClasseBase.BATEDOR_FURIOSO));
 
-       jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarAtaqueBruto());
-       jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarSocosFuriosos());
-       jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarBencaoDoBerserker());
-       jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarGritoDoGuerreiro());
-       jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarIMPARAVEL());
-
-
+        jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarAtaqueBruto());
+        jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarSocosFuriosos());
+        jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarBencaoDoBerserker());
+        jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarGritoDoGuerreiro());
+        jogador1.mostrarHabilidades(SkillFactory_BatedorFurioso.criarIMPARAVEL());
 
 
         return jogador1;
     }
 
-    public static FichaRPG criarArcanistaSupremo(){
+    public static FichaRPG criarArcanistaSupremo() {
         FichaRPG jogador2 = new FichaRPG(
 
                 "Arcanista Supremo",
                 (ClasseBase.ARCANISTA_SUPREMO),
                 new StatusRPG(ClasseBase.ARCANISTA_SUPREMO));
-
 
 
         jogador2.mostrarHabilidades(SkillFactory_ArcanistaSupremo.criarEsferaArcana());
@@ -56,9 +53,9 @@ public class FichasRPGFactory {
 
 
         return jogador2;
-}
+    }
 
-    public static FichaRPG criarCardinal(){
+    public static FichaRPG criarCardinal() {
         FichaRPG jogador3 = new FichaRPG(
 
                 "Cardinal",
@@ -66,17 +63,16 @@ public class FichasRPGFactory {
                 new StatusRPG(ClasseBase.CARDINAL));
 
 
-
-    jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarMaosCurativas());
-    jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarQueimaAlmas());
-    jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarProfecia());
-    jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarChamdsDoEsplendor());
-    jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarFascinioMiraculoso());
+        jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarMaosCurativas());
+        jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarQueimaAlmas());
+        jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarProfecia());
+        jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarChamdsDoEsplendor());
+        jogador3.mostrarHabilidades(SkillFactory_Cardinal.criarFascinioMiraculoso());
 
         return jogador3;
     }
 
-    public static FichaRPG criarDefensorColossal(){
+    public static FichaRPG criarDefensorColossal() {
         FichaRPG jogador4 = new FichaRPG(
 
                 "Defensor Colossal",
@@ -84,18 +80,16 @@ public class FichasRPGFactory {
                 new StatusRPG(ClasseBase.DEFENSOR_COLOSSAL));
 
 
+        jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarForteImpacto());
+        jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarImpactoUnilateral());
+        jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarEscudeiroDesenfreado());
+        jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarAgressao());
+        jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarJulgamentoColossal());
 
-
-jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarForteImpacto());
-jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarImpactoUnilateral());
-jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarEscudeiroDesenfreado());
-jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarAgressao());
-jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarJulgamentoColossal());
-
-                return jogador4;
+        return jogador4;
     }
 
-    public static FichaRPG criarVastoLorde(){
+    public static FichaRPG criarVastoLorde() {
         FichaRPG jogador5 = new FichaRPG(
 
                 "Vasto Lorde",
@@ -112,10 +106,9 @@ jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarJulgamentoColossa
         return jogador5;
 
 
-
     }
 
-    public static FichaRPG criarAnciaoNegro(){
+    public static FichaRPG criarAnciaoNegro() {
         FichaRPG jogador6 = new FichaRPG(
 
                 "Ancião Negro",
@@ -132,7 +125,25 @@ jogador4.mostrarHabilidades(SkillFactory_DefensorColossal.criarJulgamentoColossa
         return jogador6;
 
 
-
     }
+
+    public static FichaRPG criarGuerreiroDasSombras() {
+
+        FichaRPG jogador7 = new FichaRPG("Guerreiro das Sombras",
+                (ClasseBase.GUERREIRO_DAS_SOMBRAS),
+                new StatusRPG(ClasseBase.GUERREIRO_DAS_SOMBRAS));
+
+
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarAuraSombria());
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarCorvoSombrio());
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarCloneDasSombras());
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarAlemDaMorte());
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarDancaDasSombras());
+        jogador7.mostrarHabilidades(SkillFactory_Guerreiro_Das_Sombras.criarEstiloSombrio());
+
+        return jogador7;
+    }
+
+
 
 }
